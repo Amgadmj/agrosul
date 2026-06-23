@@ -1,0 +1,67 @@
+# ===============================================
+# Agrosul-Tech — .gitignore
+# ===============================================
+
+# ⚠️  Secrets & credentials — NEVER commit these
+.env
+.env.*
+*.env
+secrets.txt
+config/local.py
+**/secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+
+# ML Models (download separately — too large for git)
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# Geospatial data (large binary files)
+*.tif
+*.tiff
+*.geotiff
+*.las
+*.laz
+*.shp
+*.dbf
+*.prj
+
+# Database dumps
+*.sql.gz
+*.dump
+*.backup
+
+# Node / Next.js (portal)
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/

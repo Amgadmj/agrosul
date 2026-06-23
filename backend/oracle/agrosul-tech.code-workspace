@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../agrosul-next/.next"
+		},
+		{
+			"path": "../../agrosul-next/node_modules"
+		},
+		{
+			"path": "../../agrosul-next/public"
+		},
+		{
+			"path": "../../agrosul-next/src"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "agrosul-tech"
+	}
+}

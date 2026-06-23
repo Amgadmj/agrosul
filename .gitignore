@@ -1,0 +1,39 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+.env
+.venv
+env/
+venv/
+ENV/
+
+# === Node / Next.js ===
+portal/node_modules/
+portal/.next/
+portal/.env
+portal/.env.local
+portal/.env.development.local
+portal/.env.test.local
+portal/.env.production.local
+portal/npm-debug.log*
+portal/yarn-debug.log*
+portal/yarn-error.log*
+portal/tsconfig.tsbuildinfo
+
+# === Database / Local ===
+*.raster
+*.tif
+*.tiff
+*.dump
+
+# === OS ===
+.DS_Store
+Thumbs.db
